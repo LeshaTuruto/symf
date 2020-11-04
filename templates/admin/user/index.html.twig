@@ -1,11 +1,22 @@
 {% extends 'admin/adminbase.html.twig' %}
 {% block body %}
+    <div class="container-xl">
+        <div class="row no-gutters">
+            <div class="col-12 text-center">
+                <h1 class="display-4 text-center mt-5">{% block title %}{{ title }}{% endblock %}</h1>
+            </div>
+        </div>
+    </div>
 
-<h1>
-    {{ title }}
+    <div class="container-xl">
+        <div class="row no-gutters">
+            <div class="col-12 text-center ">
+                <a class="btn btn-success " href="{{ path('admin_user_create') }}">Make user</a><br>
+            </div>
+        </div>
+    </div>
 
-</h1>
-    <a href="{{ path('admin_user_create') }}">Make user</a><br>
+
 
 <h2>User list</h2>
 

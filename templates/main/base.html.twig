@@ -1,12 +1,61 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-    </head>
-    <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Home{% endblock %}</title>
+    <link rel="stylesheet" href="{{ asset('asserts/main/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('asserts/framework/fontawesome-free-5.15.1-web/css/fontawesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('asserts/framework/bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('asserts/main/css/style.css') }}">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="{{ path('home') }}">HOME<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+                <a href="{{ path('admin_home') }} " class="form-control mr-sm-2" btn btn-outline-success>Admin</a>
+            {% else %}
+                <a href="{{ path('app_login') }} " class="form-control mr-sm-2" btn btn-outline-success>Login</a>
+            {% endif %}
+        </form>
+    </div>
+</nav>
+{% block body %}{% endblock %}
+{% block javascripts %}
+    <script src="{{ asset('asserts/framework/vue/vue.js') }}"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{{ asset('asserts/framework/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    {% block addJs %} {% endblock %}
+{% endblock %}
+</body>
 </html>

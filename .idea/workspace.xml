@@ -11,35 +11,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e8ba3c8-9ed3-4bbd-9769-03112b18060c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5d6c1489-f316-43f7-ae99-c0038d9b9e1d.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/5d6c1489-f316-43f7-ae99-c0038d9b9e1d/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/migrations/Version20201028143659.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asserts/admin/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/asserts/main/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminBaseController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminHomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminUserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Main/BaseController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Main/homeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Security/SecurityController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Form/UserType.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Security/UserAuthenticator.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/adminbase.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/user/form.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/admin/user/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/main/index.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/asserts/framework/vue/vue.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/asserts/main/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/asserts/main/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AdminBaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AdminBaseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Main/BaseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Main/BaseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Security/UserAuthenticator.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Security/UserAuthenticator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/adminbase.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/adminbase.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/user/form.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/user/form.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/admin/user/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/admin/user/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/security/login.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,26 +147,28 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../quizotopia" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\symfony\public\asserts\framework\vue" />
+      <recent name="C:\OpenServer\domains\symfony\templates\admin" />
+      <recent name="C:\OpenServer\domains\symfony\public\asserts\admin\css" />
+      <recent name="C:\OpenServer\domains\symfony\public\asserts\main" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\OpenServer\domains\symfony\templates\admin\user" />
       <recent name="C:\OpenServer\domains\symfony\templates\admin" />
       <recent name="C:\OpenServer\domains\symfony\src\Controller\Security" />
       <recent name="C:\OpenServer\domains\symfony\src\Controller\Main" />
       <recent name="C:\OpenServer\domains\symfony\templates\main" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\OpenServer\domains\symfony\templates\admin" />
-      <recent name="C:\OpenServer\domains\symfony\public\asserts\admin\css" />
-      <recent name="C:\OpenServer\domains\symfony\public\asserts\main" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -198,7 +184,9 @@
       <workItem from="1603986109744" duration="6274000" />
       <workItem from="1604143098711" duration="1928000" />
       <workItem from="1604171123548" duration="689000" />
-      <workItem from="1604209135818" duration="2786000" />
+      <workItem from="1604209135818" duration="17273000" />
+      <workItem from="1604331310251" duration="627000" />
+      <workItem from="1604481244918" duration="1684000" />
     </task>
     <servers />
   </component>
@@ -238,6 +226,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1366.768@0.0.1366.768" timestamp="1603896387356" />
+    <state x="463" y="128" key="FileChooserDialogImpl" timestamp="1604332206375">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="128" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1604332206375" />
     <state x="747" y="95" key="NewPhpClassDialog" timestamp="1603896394319">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -247,9 +239,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="368" y="15" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1603899371208" />
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1604143402389">
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1604222060382">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1604143402389" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1604222060382" />
   </component>
 </project>
